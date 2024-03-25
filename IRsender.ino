@@ -9,6 +9,6 @@ void setup() {
 
 void loop() {
 //5秒間隔で10回信号を送信する
-  IrSender.sendPanasonic(0xB,0x3D,10);
+  IrSender.sendKaseikyo(0x128,0x16,5,0x5AAA);
   delay(5000);
 }
